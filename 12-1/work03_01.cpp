@@ -22,7 +22,7 @@ Dept::~Dept() {
 int Dept::getSize() { return size; }
 
 void Dept::read() {
-    cout << size << "°³ Á¡¼ö ÀÔ·Â>> ";
+    cout << size << "ê°œ ì ìˆ˜ ìž…ë ¥>> ";
     for (int i = 0; i < size; ++i) {
         cin >> scores[i];
     }
